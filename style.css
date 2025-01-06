@@ -25,11 +25,6 @@ h1 {
     font-family: 'Brush Script MT', cursive;
 }
 
-.ocean {
-    background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-
-}
-
 * {
     padding: 0;
     margin: 0;
