@@ -1,0 +1,43 @@
+
+li {
+    display:inline;
+    width: 25px;
+    border-radius: 10%;
+    border: 1 px solid black; 
+    padding:15px;
+    background-color: mediumaquamarine;
+}
+
+li:hover {
+    background-color: rgb(89, 182, 151);
+}
+
+a {
+    color:seashell;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(222, 120, 97);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.ocean {
+    background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+
+}
+
+u {
+    list-style: none;
+    
+}
