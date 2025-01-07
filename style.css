@@ -1,7 +1,5 @@
-
 li {
     display:inline;
-    width: 25px;
     border-radius: 10%;
     border: 1 px solid black; 
     padding:15px;
@@ -25,14 +23,15 @@ h1 {
     font-family: 'Brush Script MT', cursive;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: monospace;
+.ocean {
+ 
 
 }
 
-u {
-    list-style: none;
-    
+.review {
+    border-style:solid;
+    border-width:6px;
+    border-color:mediumaquamarine;
+    background-color:seashell;
+    color:mediumaquamarine;
 }
