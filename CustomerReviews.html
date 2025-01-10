@@ -2,27 +2,57 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
-  <ul> 
-    <div class="sidebar">
-      <li><a href="index.html"> Home </a></li>
-      <li><a href= "AboutUs.html"> About Us </a></li>
-      <li><a href= "CustomerReviews.html"> Customer Reviews </a></li>
-      <li><a href= "In-Person.html"> In-Person </In-Person></a></li>
-      <li><a href= "MembershipPage.html"> Membership Page </a></li>
-      <li><a href= "Menu.html"> Menu </a></li>
-      <li><a href= "MerchPage.html"> Merch Page </a></li>
-      <li><a href= "OnlineOrders.html"> OnlineOrders </a></li>
-      <li><a href= "ReferencePage.html"> ReferencePage </a></li>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="CustomerReviews.html">Customer Reviews</a>
+      <a href="ReferencePage.html">Reference Page</a>
+    <div class="dropdown">
+      <button class="dropbtn">Orders
+        <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="dropdown-content">
+          <a href="OnlineOrders.html">Online Orders</a>
+          <a href="Reservations.html">Reservations</a>
+          <a href="MerchPage.html">Merch Page</a>
+        </div>
     </div>
-  </ul>
-  <h1>Customer Reviews</h1>
-  <div class="review">
-    <h3>Bob</h3>
-    <p>This restaurant is amazing! There's great service and the food is high quality!</p>
-  </div>
-  <p><br><br></p>
-  <div class="review">
-    <h3>Amy</h3>
-    <p>This is my favorite restaurant!</p>
-  </div>
+    <div class="dropdown2">
+      <button class="dropbtn2">Menu
+        <i class="fa fa-caret-down2"></i>
+      </button>
+        <div class="dropdown-content2">
+          <a href="Drinks.html">Drinks</a>
+          <a href="Appetizer.html">Appetizers</a>
+          <a href="Desserts.html">Desserts</a>
+          <a href="MainCourses.html">Main Courses</a>
+        </div>
+    </div>
   </head>
+  <body>
+    <h1>Customer Reviews</h1>
+    <div class="review">
+      <h3>Bob</h3>
+      <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+        <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+        <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+        <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+      </div>
+      <p>This restaurant is amazing! There's great service and the food is high quality!</p>
+    </div>
+    <p><br><br></p>
+    <div class="review">
+      <h3>Amy</h3>
+      <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+        <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+        <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+        <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+      </div>
+      <p>This is my favorite restaurant!</p>
+    </div>
+    
+  </body>
